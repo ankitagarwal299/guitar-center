@@ -10,7 +10,7 @@
  */
 angular
   .module('guitarCenterApp', [
-    'ngRoute'
+    'ngRoute', 'ngAnimate'
   ])
   .config(function ($routeProvider) {
     $routeProvider
