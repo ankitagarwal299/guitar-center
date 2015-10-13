@@ -9,9 +9,9 @@
  */
  angular.module('guitarCenterApp')
  
- .controller('MainCtrl', function ($scope) {
-  $scope.images = [{
-    /*src: 'http://static.guitarcenter.com/static/gc/selects/2015/d-home/gc-md-hf-singer-songwriter-5-10-01-15.jpg',*/
+ .controller('MainCtrl',function ($scope,guitar,$location) {
+  /*$scope.images = [{
+    
     src: 'http://static.guitarcenter.com/static/gc/selects/2015/d-home/gc-md-hf-singer-songwriter-5-10-01-15.jpg',
     title: 'Pic 1'
   }, {
@@ -26,7 +26,15 @@
   }, {
     src: 'http://static.guitarcenter.com/static/gc/selects/2015/d-home/gc-md-hf-gc-exclusive-10-02-15.jpg',
     title: 'Pic 5'
-  }];
+  }];*/
+
+guitar.success(function(data){
+         $scope.images = data.allProducts;
+  });
+
+ $scope.selectThisProduct = function ($index){
+         $location.path('/product').search({id: $index});
+      }
 });
 
 

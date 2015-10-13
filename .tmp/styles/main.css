@@ -8721,7 +8721,6 @@ body {
 /* Custom page footer */
 /* line 40, ../../app/styles/main.scss */
 .footer {
-  padding-top: 1000px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
@@ -8794,6 +8793,12 @@ body {
 }
 
 /* line 106, ../../app/styles/main.scss */
+.section_Button {
+  float: right;
+  margin-bottom: 200px;
+}
+
+/* line 112, ../../app/styles/main.scss */
 .section_header_title {
   background: #c00;
   color: #fff;
@@ -8807,43 +8812,43 @@ body {
   text-transform: uppercase;
 }
 
-/* line 121, ../../app/styles/main.scss */
+/* line 127, ../../app/styles/main.scss */
 .slide.ng-hide-add,
 .slide.ng-hide-remove {
   transition: all linear 0.5s;
   display: block !important;
 }
 
-/* line 129, ../../app/styles/main.scss */
+/* line 135, ../../app/styles/main.scss */
 .slide.ng-hide-add.ng-hide-add-active,
 .slide.ng-hide-remove {
   opacity: 0;
 }
 
-/* line 133, ../../app/styles/main.scss */
+/* line 139, ../../app/styles/main.scss */
 .slide.ng-hide-add,
 .slide.ng-hide-remove.ng-hide-remove-active {
   opacity: 1;
 }
 
-/* line 138, ../../app/styles/main.scss */
+/* line 144, ../../app/styles/main.scss */
 * {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 141, ../../app/styles/main.scss */
+/* line 147, ../../app/styles/main.scss */
 .center-grey {
   background: #f2f2f2;
 }
 
-/* line 147, ../../app/styles/main.scss */
+/* line 153, ../../app/styles/main.scss */
 .slider {
   position: relative;
   padding: 0px;
   width: 710px;
 }
 
-/* line 155, ../../app/styles/main.scss */
+/* line 161, ../../app/styles/main.scss */
 .tag {
   float: left;
   position: absolute;
@@ -8855,18 +8860,18 @@ body {
   font-weight: bold;
   list-style-type: none;
 }
-/* line 167, ../../app/styles/main.scss */
+/* line 173, ../../app/styles/main.scss */
 .tag li {
   display: list-item;
 }
-/* line 171, ../../app/styles/main.scss */
+/* line 177, ../../app/styles/main.scss */
 .tag a {
   background-color: #333;
   color: #ffffff;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 179, ../../app/styles/main.scss */
+/* line 185, ../../app/styles/main.scss */
 .sideMenu {
   border: 1px solid red;
   position: absolute;
@@ -8875,20 +8880,20 @@ body {
   margin-left: 20px;
 }
 
-/* line 188, ../../app/styles/main.scss */
+/* line 194, ../../app/styles/main.scss */
 .slide {
   position: absolute;
   height: 300px;
   width: 1100px;
   box-shadow: 0px 0px 15px #999;
 }
-/* line 194, ../../app/styles/main.scss */
+/* line 200, ../../app/styles/main.scss */
 .slide img {
   width: 100%;
   height: 100%;
 }
 
-/* line 204, ../../app/styles/main.scss */
+/* line 210, ../../app/styles/main.scss */
 h1 {
   text-align: center;
   padding: 10px;
@@ -8896,7 +8901,7 @@ h1 {
   color: #222;
 }
 
-/* line 211, ../../app/styles/main.scss */
+/* line 217, ../../app/styles/main.scss */
 .nav2 {
   width: 1280px;
   background-color: red;
@@ -8904,9 +8909,51 @@ h1 {
   heigth: 38px;
 }
 
-/* line 219, ../../app/styles/main.scss */
+/* line 225, ../../app/styles/main.scss */
 .nav2 a {
   color: white;
 }
 
-/*# sourceMappingURL=main.css.map */
+/* line 229, ../../app/styles/main.scss */
+.productdetails {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+/* line 236, ../../app/styles/main.scss */
+.disImage img {
+  height: 124px;
+  margin-left: 78px;
+  width: 216px;
+  float: left;
+}
+
+/* line 243, ../../app/styles/main.scss */
+#imgDes {
+  height: 364px;
+  margin-left: 7px;
+  width: 364px;
+  float: right;
+}
+
+/* line 251, ../../app/styles/main.scss */
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+/* line 256, ../../app/styles/main.scss */
+.bootstrap-iso form button, .bootstrap-iso form button:hover {
+  color: white !important;
+}
+
+/* line 260, ../../app/styles/main.scss */
+.asteriskField {
+  color: red;
+}
+
+/* line 265, ../../app/styles/main.scss */
+#a {
+  margin-top: 20px;
+}

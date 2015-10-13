@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: MainCtrl', function () {
+describe('Controller: SummaryCtrl', function () {
 
   // load the controller's module
   beforeEach(module('guitarCenterApp'));
 
-  var MainCtrl,
+  var SummaryCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    SummaryCtrl = $controller('SummaryCtrl', {
       $scope: scope
       // place here mocked dependencies
     });

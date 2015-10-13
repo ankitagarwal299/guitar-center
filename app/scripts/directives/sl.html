@@ -2,32 +2,32 @@
 
 <div class="slider">
 
- <div class="sideMenu">
-  <ul class="tag">
-    <li class="navHeader">WHATS'S NEW</li>
-    <li class="navHeader active"><a href="#">Guitar Center Exclusive</a></li>
-    <li><a href="#">Guitar Deals</a></li>
-    <li><a href="#">Singer Song writer Deals</a></li>
-    <li><a href="#">Moog Mother32</a></li>
-    <li><a href="#">Drum Bags & Cases</a></li>
-    <li><a href="#">Singer Songwriter 5</a></li>
-  </ul>
+      <!-- side menu on top of image -->
+       <div class="sideMenu">
+        <ul class="tag">
+          <li class="navHeader">WHATS'S NEW</li>
+          <li class="navHeader active"><a href="http://static.guitarcenter.com/static/gc/selects/2015/d-home/gc-md-hf-singer-songwriter-5-10-01-15.jpg">Guitar Center Exclusive</a></li>
+          <li><a href="#">Guitar Deals</a></li>
+          <li><a href="#">Singer Song writer Deals</a></li>
+          <li><a href="#">Moog Mother32</a></li>
+          <li><a href="#">Drum Bags & Cases</a></li>
+          <li><a href="#">Singer Songwriter 5</a></li>
+        </ul>
+      </div>
+
+
+
+      <!-- Image directive template -->
+      <div class="slide" ng-repeat="image in images" ng-show="image.visible" ng-mouseenter="stopAuto()" ng-mouseleave="startAuto()">
+          <img ng-src="{{image.image_path}}" />
+      </div>
+
+
+      
+
 </div>
 
 
 
 
 
-
-
-<div class="slide" ng-repeat="image in images" ng-show="image.visible">
-
-  <img ng-src="{{image.src}}" />
-</div>
-
-
-<div class="slideDetails" ng-repeat="product in productDetails" ng-show="product.visible">
-
-  <img ng-src="{{image.src}}" />
-</div>
-</div>

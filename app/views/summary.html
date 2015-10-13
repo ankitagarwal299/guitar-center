@@ -1,0 +1,30 @@
+
+
+<div id="a">
+	<div class="disImage">
+		<img src="{{prod1.image_path}}">
+	</div>
+
+<label>Product Description</label>
+	<p>{{prod1.product_description}}</p>
+
+</div>
+
+
+
+
+
+<p><strong>Order Detail Summary</strong></p>
+
+
+    <label>First Name</label><p>{{Name}}</p>
+	
+	<label>Email</label><p>{{email}}</p>
+	<label>Tel</label><p>{{tel}}</p>
+	<label>Card#</label><p >{{number}}</p>
+	<div>
+		<input name="_honey" style="display:none" type="text"/>
+		<button class="btn btn-primary " name="submit" type="submit" ng-click="buy()">
+			BUY
+		</button>
+	</div>
